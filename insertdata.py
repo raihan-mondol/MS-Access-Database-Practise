@@ -1,7 +1,7 @@
 import pyodbc
 
 try:
-    con_string = r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\QUPS\Documents\pydb.accdb;'
+    con_string = r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=D:\New folder (2)\pythonProject1\dbfile\pydb.accdb;'
     conn = pyodbc.connect(con_string)
     print("Connected")
 
